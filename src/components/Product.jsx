@@ -42,7 +42,6 @@ const Container = styled.div`
     margin: 2rem;
     height: 15rem;
     background-color: white;
-    cursor: pointer;
     display: flex;
     align-items: center;
     padding: 1.5rem;
@@ -51,6 +50,7 @@ const Content = styled.div`
     font-size: 1.2rem;
     width: 25rem;
     display: flex;
+    cursor: pointer;
     margin: 2rem 5rem;
     flex-direction: column;
     font-family: sans-serif;
@@ -94,6 +94,7 @@ const Description = styled.div`
 `;
 const Image = styled.img`
     width: 10rem;
+    cursor: pointer;
 `;
 const Buttons = styled.div`
     margin-left: 5rem;

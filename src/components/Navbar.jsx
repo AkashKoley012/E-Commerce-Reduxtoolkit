@@ -36,6 +36,10 @@ const Navbar = () => {
 const Container = styled.div`
     display: flex;
     padding: 1rem;
+    position: fixed;
+    z-index: 1;
+    width: 99%;
+    background-color: white;
     justify-content: space-between;
 `;
 const SubContainer = styled.div`
